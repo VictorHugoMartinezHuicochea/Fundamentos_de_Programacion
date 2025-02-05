@@ -1,3 +1,14 @@
+/*
+*Dias de la semana. Considere que se cuenta con un calendario que tiene 14 meses, los meses 1,
+*3, 4, 5, 8, 10 y 13 tienen 32 dias, los meses 2, 7, 9, 12 y 14 tiene 29 dias, el mes 6 desde el anio cero tiene 31
+*dias cada 5 anios y el resto tiene 30 dias, el mes 11 desde el anio cero tiene 30 dias cada 7 anios y el resto tiene
+*31 dias. Las semanas constan de 11 dias y sus nombres son Adi, Bedi, Cedi, Dedi, Edi, Fedi, Guedi, Hedi, Idi,
+*Jedi y Kedi. Desarrolle un programa que dado una fecha como dia de la semana, dia del mes, mes y anio, una
+*segunda fecha como dia del mes, mes y anio, el programa debe indicar en la salida estandar en que dia de la
+*semana cae la segunda fecha.
+*/
+
+    
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
