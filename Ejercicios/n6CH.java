@@ -1,7 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*Manejo de cadenas de caracteres. Desarrolle un programa que maneje cadenas de caracteres
+ *como arreglos de caracteres con terminador el caracter nulo (’\0’). La funcionalidad a implementar debe ser
+ *la siguiente:
+ *1. en un entero obtener la longitud de una cadena.
+ *2. en una tercer cadena obtener la concatenaci ́on de dos cadenas.
+ *3. en un entero obtener el resultado de la comparaci ́on de dos cadenas dada por cero si son iguales, un valor
+ *negativo si la primera cadena es menor que la segunda y un valor positivo si la primera cadena es mayor
+ *que la segunda. Si dos cadenas son distintas, se utiliza el orden lexicogr ́afico (de diccionoario) para su
+ *comparaci ́on, en el primer caracter que sean distintas ah ́ı se indica de acuerdo a la comparaci ́on de esos
+ *dos caracteres (ejemplo Roberto es como y Roberta fue al, son iguales en sus primeros seis caracteres,
+ *pero en el s ́eptimo o es mayor que a, por lo que la primera cadena es mayor que la segunda). Si dos
+ *cadenas tienen diferente longitud y una de ellas es igual en su totalida a la otra, la m ́as larga se considera
+ *mayor que la otra (ejemplo hola y hola a todos, la primera cadena es menor que la segundo debido a
+ *que en su totalidad es igual a la segunda, pero la segunda es m ́as larga).
+ *4. en un entero obtener el  ́ındice donde se encuentra la primera ocurrencia de un caracter dado dentro de
+ *una cadena dada o −1 si el caracter no se encuentra dentro de la cadena.
+ *5. en un entero obtener el  ́ındice donde se encuentra la primera ocurrencia de una cadena dada dentro de
+ *una segunda cadena dada o −1 si la primera cadena no se encuentra dentro de la segunda cadena.
+ *6. en una cadena obtener el resutlado de eliminiar todas las ocurrencias de un caracter dado en otra cadena
+ *(ejemplo si se quiere eliminar el caracter espacio de la cadena anita lava la tina la cadena resultante
+ *quedar ́ıa como anitalavalatina) 
  */
 package n6ch;
 
