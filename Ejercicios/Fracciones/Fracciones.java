@@ -1,3 +1,8 @@
+/**
+*Crear un programa de manejo de fracciones para java
+*/
+
+
 package fracciones;
 
 import java.util.Scanner;
