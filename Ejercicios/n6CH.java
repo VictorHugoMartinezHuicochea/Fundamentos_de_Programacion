@@ -5,20 +5,25 @@
  *2. en una tercer cadena obtener la concatenaci ́on de dos cadenas.
  *3. en un entero obtener el resultado de la comparaci ́on de dos cadenas dada por cero si son iguales, un valor
  *negativo si la primera cadena es menor que la segunda y un valor positivo si la primera cadena es mayor
- *que la segunda. Si dos cadenas son distintas, se utiliza el orden lexicogr ́afico (de diccionoario) para su
- *comparaci ́on, en el primer caracter que sean distintas ah ́ı se indica de acuerdo a la comparaci ́on de esos
+ *que la segunda. Si dos cadenas son distintas, se utiliza el orden lexicografico (de diccionario) para su
+ *comparacion, en el primer caracter que sean distintas ahi se indica de acuerdo a la comparacion de esos
  *dos caracteres (ejemplo Roberto es como y Roberta fue al, son iguales en sus primeros seis caracteres,
- *pero en el s ́eptimo o es mayor que a, por lo que la primera cadena es mayor que la segunda). Si dos
- *cadenas tienen diferente longitud y una de ellas es igual en su totalida a la otra, la m ́as larga se considera
+ *pero en el septimo o es mayor que a, por lo que la primera cadena es mayor que la segunda). Si dos
+ *cadenas tienen diferente longitud y una de ellas es igual en su totalida a la otra, la mas larga se considera
  *mayor que la otra (ejemplo hola y hola a todos, la primera cadena es menor que la segundo debido a
- *que en su totalidad es igual a la segunda, pero la segunda es m ́as larga).
- *4. en un entero obtener el  ́ındice donde se encuentra la primera ocurrencia de un caracter dado dentro de
+ *que en su totalidad es igual a la segunda, pero la segunda es mas larga).
+ *4. en un entero obtener el indice donde se encuentra la primera ocurrencia de un caracter dado dentro de
  *una cadena dada o −1 si el caracter no se encuentra dentro de la cadena.
- *5. en un entero obtener el  ́ındice donde se encuentra la primera ocurrencia de una cadena dada dentro de
+ *5. en un entero obtener el indice donde se encuentra la primera ocurrencia de una cadena dada dentro de
  *una segunda cadena dada o −1 si la primera cadena no se encuentra dentro de la segunda cadena.
  *6. en una cadena obtener el resutlado de eliminiar todas las ocurrencias de un caracter dado en otra cadena
  *(ejemplo si se quiere eliminar el caracter espacio de la cadena anita lava la tina la cadena resultante
- *quedar ́ıa como anitalavalatina) 
+ *quedaria como anitalavalatina) 
+*Con la funcionalidad implementada anteriormente descrita, desarrolle un programa que adicionalmente lea dos
+*cadena de caracteres, indique la longitud de cada una de ellas, muestres la concatenacion de la primera con la
+*segunda e indique cual de las cadenas forma un palindromo. Un palindromo es una palabra que se lee igual
+*de izquierda a derecha que de derecha a izaquierda, por ejemplo "anita lava la tina" o "dabale arroz a la
+*zorra el abad" o "se es o no se es" o "amo la pacifica paloma" u "oir a diario o yo hago yoga hoy".
  */
 package n6ch;
 
