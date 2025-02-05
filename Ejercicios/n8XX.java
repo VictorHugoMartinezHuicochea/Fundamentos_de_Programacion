@@ -1,7 +1,30 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *Opcion triangular: Desarrolle un programa que lea un caracter X seguido de dos naturales n y c,
+ *con c una opcion entre 1 y 4 y escriba en la salida estandar lo siguiente de acuerdo a la opcion elegida.
+ *
+ *Opcion 1
+ *X 
+ *X X
+ *...
+ *X X ... X (n veces)
+ *
+ *Opcion 2
+ *                   X
+ *                 X X
+ *                 ...
+ * (n veces) X ... X X
+ *
+ *Opcion 3
+ *X X ... X (n veces)
+ *...
+ *X X
+ *X
+ *
+ *Opcion 4
+ *(n veces) X ... X X
+ *                ...
+ *                X X
+ *                  X
  */
 package n9xx;
 
